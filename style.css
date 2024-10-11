@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 12%);
+    width: 40vh;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px 40px 30px;
+}
+
+.container img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.container #name{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container #location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.container #job{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.container .social-media{
+    background-color: hsl(0, 0%, 20%);
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.container .social-media a{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.container .social-media:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
